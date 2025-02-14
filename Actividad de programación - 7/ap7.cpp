@@ -28,14 +28,21 @@ main() // Inicio de la funcion principal
         int suma = 0; // Inicializamos la variable suma
         cout << "Ingrese un número entero: "; // Solicitamos al usuario que ingrese un número
         cin >> num_caracter; // Guardamos el número ingresado en una variable de tipo string
+
+
+        // Verificamos si el número ingresado es un número entero válido
         for (char c : num_caracter) // Recorremos cada caracter del número ingresado
         {
+            esNumero = true; // Inicializamos la variable esNumero en verdadero
             if (!isdigit(c)) // Verificamos si el caracter es un número
             {
                 esNumero = false; // Si no es un número, cambiamos el valor de la variable a falso
                 break; // Salimos del bucle
             }
         }
+
+
+        // Si el número ingresado es un número entero válido
         if (esNumero) // Si el número ingresado es un número entero válido
         {
             num = stoi(num_caracter); // Convertir el caracter a número
@@ -67,7 +74,9 @@ main() // Inicio de la funcion principal
             cout << "No se aceptan caracteres especiales, Intentelo de nuevo" << endl; // Mensaje de error si el número ingresado no es un número
         cout << "Deseas Finalizar el Programa? (s/n): " << endl; // Preguntamos al usuario si desea finalizar el programa
         cin >> ele; // Guardamos la respuesta del usuario
-    } 
+    }
+    
+    
     while (ele != 's' && ele != 'S'); // Repetimos el programa mientras la respuesta sea diferente de 's' o 'S'
     cout << "Presione cualquier tecla para salir..."; // Mensaje de despedida
     getch(); // Esperamos a que el usuario presione una tecla
