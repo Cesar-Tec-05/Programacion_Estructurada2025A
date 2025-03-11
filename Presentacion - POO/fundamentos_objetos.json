@@ -1,0 +1,33 @@
+{
+    "Auto": 
+    {
+        "auto1": 
+        {
+            "marca": "Ford",
+            "modelo": "Fiesta",
+            "color": "Rojo",
+            "año": 2019
+        },
+        "auto2": 
+        {
+            "marca": "Chevrolet",
+            "modelo": "Onix",
+            "color": "Blanco",
+            "año": 2020
+        },
+        "auto3": 
+        {
+            "marca": "Tesla",
+            "modelo": "Model X",
+            "color": "Azul",
+            "año": 2021
+        },
+        "auto4": 
+        {
+            "marca": "No se agrego la marca",
+            "modelo": "No se agrego el modelo",
+            "color": "No se agrego el color",
+            "año": "No se agrego el año"
+        }
+    }
+}
