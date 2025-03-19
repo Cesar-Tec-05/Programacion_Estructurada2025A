@@ -28,6 +28,16 @@
             "modelo": "No se agrego el modelo",
             "color": "No se agrego el color",
             "año": "No se agrego el año"
+        },
+        "Moto": 
+        {
+            "moto1": 
+            {
+                "marca": "Yamaha",
+                "modelo": "R1",
+                "color": "Negra",
+                "año": 2021
+            }
         }
     }
 }
