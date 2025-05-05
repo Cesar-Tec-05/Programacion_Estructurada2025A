@@ -1,0 +1,18 @@
+// Exportador de librerias
+
+#include "./libraries/caracteres_y_cadenas.cpp"
+#include "./libraries/datos.cpp"
+#include "./libraries/detectar_multiplos_3_5.cpp"
+#include "./libraries/detectar_no_primos.cpp"
+#include "./libraries/fibonacci.cpp"
+#include "./libraries/menu.cpp"
+#include "./libraries/hola_mundo.cpp"
+#include "./libraries/identificar_palindromo.cpp"
+#include "./libraries/juego_ahorcado.cpp"
+#include "./libraries/juego_torres_hanoi.cpp"
+#include "./libraries/multiplicador.cpp"
+#include "./libraries/operaciones_conjuntos.cpp"
+#include "./libraries/operaciones_matrices.cpp"
+#include "./libraries/secuencia_numeros.cpp"
+#include "./libraries/suma_arreglos.cpp"
+#include "./libraries/suma_cuadrados.cpp"
